@@ -1,6 +1,8 @@
 {
     "name": "hkan/settings",
     "description": "",
+    "homepage": "https://github.com/hkan/settings",
+    "keywords": [ "laravel", "setting", "config" ],
     "authors": [
         {
             "name": "Hakan Aktas",
@@ -10,6 +12,9 @@
     "require": {
         "php": ">=5.5.0",
         "illuminate/support": "4.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
     },
     "autoload": {
         "psr-0": {
